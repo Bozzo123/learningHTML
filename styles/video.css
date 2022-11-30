@@ -16,6 +16,7 @@
       .thumbnail-DIV
       {
         margin-bottom: 12px;
+        position: relative;
       }
 
       .thumbnail
@@ -62,4 +63,21 @@
       .video-author
       {
         margin-bottom: 4px;
+      }
+
+      .video-time
+      {
+        font-family: Roboto, Arial;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+
+        position: absolute;
+        bottom: 8px;
+        right: 5px;
+
+        padding: 4px;
+        
       }
